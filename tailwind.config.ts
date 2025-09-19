@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Academic theme colors
+        academic: {
+          blue: "hsl(var(--academic-blue))",
+          "blue-light": "hsl(var(--academic-blue-light))",
+          green: "hsl(var(--academic-green))",
+          "green-light": "hsl(var(--academic-green-light))",
+        },
+        success: "hsl(var(--success))",
+        warning: "hsl(var(--warning))",
+        info: "hsl(var(--info))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -58,10 +68,22 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-secondary": "var(--gradient-secondary)",
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        "card": "var(--shadow-card)",
+        "card-hover": "var(--shadow-card-hover)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      transitionProperty: {
+        smooth: "var(--transition-smooth)",
       },
       keyframes: {
         "accordion-down": {
